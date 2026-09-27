@@ -25,10 +25,10 @@ void main() {
 
   //nullable (?)
   String? catatanPelanggan; //ini boleh berisi String atau null
-  catatanPelanggan = 'Kurang asin dikit nih bg ';
+  catatanPelanggan = 'Kurang asin dikit  bg ';
   catatanPelanggan = null; //sah
 
   //null aware operator (??)
-  String noteToPrint = catatanPelanggan ?? 'Tidak ada catatan khusus';
+  String noteToPrint = catatanPelanggan ?? 'ga ada catatan khusus';
   print(noteToPrint); //nampilin hasil dari fallback null aware operator
 }
